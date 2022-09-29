@@ -16,7 +16,7 @@ loop do
 end
 
 def task_3_5(n)
-  n < 1 ?  sqrt(2): sqrt(2 + task_3_5(n - 1))
+  n <= 1 ?  sqrt(2): sqrt(2 + task_3_5(n - 1))
 end
 
 
