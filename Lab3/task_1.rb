@@ -5,6 +5,7 @@ C = true
 X = 60
 Y = -10
 Z = -4
+
 puts "1.1:"
 puts "a) " + (!(A || B) && (A && !B)).to_s
 puts "b) " + ((Z != Y).object_id <= (6 >= Y).object_id && A || B && C && X >= 1.5).to_s
