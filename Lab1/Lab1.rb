@@ -1,3 +1,4 @@
+=begin
 puts "Enter x:"
 x = gets.to_f
 puts "Enter j:"
@@ -12,3 +13,9 @@ rescue
 end
 
 puts v
+=end
+
+
+for i in (0..10) do
+  i +=2
+end
